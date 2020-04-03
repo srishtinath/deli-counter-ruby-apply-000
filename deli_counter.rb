@@ -10,10 +10,18 @@ def line(katz_deli)
 
 end
 
-def take_a_number(deli_line, name)
-  deli_line << name
-  puts "Welcome, #{name}. You are number #{deli_line.find_index(name) + 1} in line."
+def take_a_number
+  order = 0
+  puts "Order number: #{order+1}"
+  order += 1
+
 end
+
+puts take_a_number
+puts take_a_number
+puts take_a_number
+
+
 
 def now_serving(deli_line)
   if deli_line == []
