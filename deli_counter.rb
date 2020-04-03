@@ -10,10 +10,11 @@ def line(katz_deli)
 
 end
 
+$order = 0
+
 def take_a_number
-  order = 0
-  puts "Order number: #{order+1}"
-  order += 1
+  puts "Order number: #{$order+1}"
+  $order += 1
 
 end
 
